@@ -26,6 +26,7 @@
 		CF285EB51F049BDA003E33D4 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAD1F049BDA003E33D4 /* UIImage+OpenCV.mm */; };
 		CF285EB61F049BDA003E33D4 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */; };
 		CF285EB81F049BDA003E33D4 /* OpenCVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */; };
+		CF285EBE1F049F31003E33D4 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF285EBD1F049F31003E33D4 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
 		CF285EB21F049BDA003E33D4 /* OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtils.h; sourceTree = "<group>"; };
 		CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVUtils.mm; sourceTree = "<group>"; };
+		CF285EBD1F049F31003E33D4 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF285EBE1F049F31003E33D4 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 		CF285DBE1F0497F7003E33D4 /* OpenCV_iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CF285EBD1F049F31003E33D4 /* opencv2.framework */,
 				CF285EA91F049BC8003E33D4 /* Utils */,
 				CF285DF21F049A9D003E33D4 /* Controllers */,
 				CF285DC21F0497F7003E33D4 /* AppDelegate.h */,
