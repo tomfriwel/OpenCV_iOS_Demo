@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF285DC11F0497F7003E33D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DC01F0497F7003E33D4 /* main.m */; };
+		CF285DC41F0497F7003E33D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DC31F0497F7003E33D4 /* AppDelegate.m */; };
+		CF285DC71F0497F7003E33D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DC61F0497F7003E33D4 /* ViewController.m */; };
+		CF285DCA1F0497F7003E33D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF285DC81F0497F7003E33D4 /* Main.storyboard */; };
+		CF285DCC1F0497F7003E33D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF285DCB1F0497F7003E33D4 /* Assets.xcassets */; };
+		CF285DCF1F0497F7003E33D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF285DCD1F0497F7003E33D4 /* LaunchScreen.storyboard */; };
+		CF285DDA1F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DD91F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m */; };
+		CF285DE51F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DE41F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF285DD61F0497F7003E33D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF285DB41F0497F7003E33D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF285DBB1F0497F7003E33D4;
+			remoteInfo = OpenCV_iOS_Demo;
+		};
+		CF285DE11F0497F7003E33D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF285DB41F0497F7003E33D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF285DBB1F0497F7003E33D4;
+			remoteInfo = OpenCV_iOS_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF285DBC1F0497F7003E33D4 /* OpenCV_iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF285DC01F0497F7003E33D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF285DC21F0497F7003E33D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF285DC31F0497F7003E33D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF285DC51F0497F7003E33D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF285DC61F0497F7003E33D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF285DC91F0497F7003E33D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF285DCB1F0497F7003E33D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF285DCE1F0497F7003E33D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF285DD01F0497F7003E33D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF285DD51F0497F7003E33D4 /* OpenCV_iOS_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_iOS_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF285DD91F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_iOS_DemoTests.m; sourceTree = "<group>"; };
+		CF285DDB1F0497F7003E33D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF285DE01F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_iOS_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF285DE41F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_iOS_DemoUITests.m; sourceTree = "<group>"; };
+		CF285DE61F0497F7003E33D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF285DB91F0497F7003E33D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF285DD21F0497F7003E33D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF285DDD1F0497F7003E33D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF285DB31F0497F7003E33D4 = {
+			isa = PBXGroup;
+			children = (
+				CF285DBE1F0497F7003E33D4 /* OpenCV_iOS_Demo */,
+				CF285DD81F0497F7003E33D4 /* OpenCV_iOS_DemoTests */,
+				CF285DE31F0497F7003E33D4 /* OpenCV_iOS_DemoUITests */,
+				CF285DBD1F0497F7003E33D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF285DBD1F0497F7003E33D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF285DBC1F0497F7003E33D4 /* OpenCV_iOS_Demo.app */,
+				CF285DD51F0497F7003E33D4 /* OpenCV_iOS_DemoTests.xctest */,
+				CF285DE01F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF285DBE1F0497F7003E33D4 /* OpenCV_iOS_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CF285DC21F0497F7003E33D4 /* AppDelegate.h */,
+				CF285DC31F0497F7003E33D4 /* AppDelegate.m */,
+				CF285DC51F0497F7003E33D4 /* ViewController.h */,
+				CF285DC61F0497F7003E33D4 /* ViewController.m */,
+				CF285DC81F0497F7003E33D4 /* Main.storyboard */,
+				CF285DCB1F0497F7003E33D4 /* Assets.xcassets */,
+				CF285DCD1F0497F7003E33D4 /* LaunchScreen.storyboard */,
+				CF285DD01F0497F7003E33D4 /* Info.plist */,
+				CF285DBF1F0497F7003E33D4 /* Supporting Files */,
+			);
+			path = OpenCV_iOS_Demo;
+			sourceTree = "<group>";
+		};
+		CF285DBF1F0497F7003E33D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF285DC01F0497F7003E33D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF285DD81F0497F7003E33D4 /* OpenCV_iOS_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF285DD91F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m */,
+				CF285DDB1F0497F7003E33D4 /* Info.plist */,
+			);
+			path = OpenCV_iOS_DemoTests;
+			sourceTree = "<group>";
+		};
+		CF285DE31F0497F7003E33D4 /* OpenCV_iOS_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF285DE41F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m */,
+				CF285DE61F0497F7003E33D4 /* Info.plist */,
+			);
+			path = OpenCV_iOS_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF285DBB1F0497F7003E33D4 /* OpenCV_iOS_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF285DE91F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_Demo" */;
+			buildPhases = (
+				CF285DB81F0497F7003E33D4 /* Sources */,
+				CF285DB91F0497F7003E33D4 /* Frameworks */,
+				CF285DBA1F0497F7003E33D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCV_iOS_Demo;
+			productName = OpenCV_iOS_Demo;
+			productReference = CF285DBC1F0497F7003E33D4 /* OpenCV_iOS_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF285DD41F0497F7003E33D4 /* OpenCV_iOS_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF285DEC1F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_DemoTests" */;
+			buildPhases = (
+				CF285DD11F0497F7003E33D4 /* Sources */,
+				CF285DD21F0497F7003E33D4 /* Frameworks */,
+				CF285DD31F0497F7003E33D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF285DD71F0497F7003E33D4 /* PBXTargetDependency */,
+			);
+			name = OpenCV_iOS_DemoTests;
+			productName = OpenCV_iOS_DemoTests;
+			productReference = CF285DD51F0497F7003E33D4 /* OpenCV_iOS_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF285DDF1F0497F7003E33D4 /* OpenCV_iOS_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF285DEF1F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_DemoUITests" */;
+			buildPhases = (
+				CF285DDC1F0497F7003E33D4 /* Sources */,
+				CF285DDD1F0497F7003E33D4 /* Frameworks */,
+				CF285DDE1F0497F7003E33D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF285DE21F0497F7003E33D4 /* PBXTargetDependency */,
+			);
+			name = OpenCV_iOS_DemoUITests;
+			productName = OpenCV_iOS_DemoUITests;
+			productReference = CF285DE01F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF285DB41F0497F7003E33D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tomfriwel;
+				TargetAttributes = {
+					CF285DBB1F0497F7003E33D4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T5EW9858SB;
+						ProvisioningStyle = Automatic;
+					};
+					CF285DD41F0497F7003E33D4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T5EW9858SB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF285DBB1F0497F7003E33D4;
+					};
+					CF285DDF1F0497F7003E33D4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T5EW9858SB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF285DBB1F0497F7003E33D4;
+					};
+				};
+			};
+			buildConfigurationList = CF285DB71F0497F7003E33D4 /* Build configuration list for PBXProject "OpenCV_iOS_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF285DB31F0497F7003E33D4;
+			productRefGroup = CF285DBD1F0497F7003E33D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF285DBB1F0497F7003E33D4 /* OpenCV_iOS_Demo */,
+				CF285DD41F0497F7003E33D4 /* OpenCV_iOS_DemoTests */,
+				CF285DDF1F0497F7003E33D4 /* OpenCV_iOS_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF285DBA1F0497F7003E33D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF285DCF1F0497F7003E33D4 /* LaunchScreen.storyboard in Resources */,
+				CF285DCC1F0497F7003E33D4 /* Assets.xcassets in Resources */,
+				CF285DCA1F0497F7003E33D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF285DD31F0497F7003E33D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF285DDE1F0497F7003E33D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF285DB81F0497F7003E33D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF285DC71F0497F7003E33D4 /* ViewController.m in Sources */,
+				CF285DC41F0497F7003E33D4 /* AppDelegate.m in Sources */,
+				CF285DC11F0497F7003E33D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF285DD11F0497F7003E33D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF285DDA1F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF285DDC1F0497F7003E33D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF285DE51F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF285DD71F0497F7003E33D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF285DBB1F0497F7003E33D4 /* OpenCV_iOS_Demo */;
+			targetProxy = CF285DD61F0497F7003E33D4 /* PBXContainerItemProxy */;
+		};
+		CF285DE21F0497F7003E33D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF285DBB1F0497F7003E33D4 /* OpenCV_iOS_Demo */;
+			targetProxy = CF285DE11F0497F7003E33D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF285DC81F0497F7003E33D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF285DC91F0497F7003E33D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF285DCD1F0497F7003E33D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF285DCE1F0497F7003E33D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF285DE71F0497F7003E33D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF285DE81F0497F7003E33D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF285DEA1F0497F7003E33D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = OpenCV_iOS_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF285DEB1F0497F7003E33D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = OpenCV_iOS_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF285DED1F0497F7003E33D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = OpenCV_iOS_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_iOS_Demo.app/OpenCV_iOS_Demo";
+			};
+			name = Debug;
+		};
+		CF285DEE1F0497F7003E33D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = OpenCV_iOS_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_iOS_Demo.app/OpenCV_iOS_Demo";
+			};
+			name = Release;
+		};
+		CF285DF01F0497F7003E33D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = OpenCV_iOS_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenCV_iOS_Demo;
+			};
+			name = Debug;
+		};
+		CF285DF11F0497F7003E33D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = OpenCV_iOS_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenCV_iOS_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF285DB71F0497F7003E33D4 /* Build configuration list for PBXProject "OpenCV_iOS_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF285DE71F0497F7003E33D4 /* Debug */,
+				CF285DE81F0497F7003E33D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF285DE91F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF285DEA1F0497F7003E33D4 /* Debug */,
+				CF285DEB1F0497F7003E33D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF285DEC1F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF285DED1F0497F7003E33D4 /* Debug */,
+				CF285DEE1F0497F7003E33D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF285DEF1F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF285DF01F0497F7003E33D4 /* Debug */,
+				CF285DF11F0497F7003E33D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF285DB41F0497F7003E33D4 /* Project object */;
+}
