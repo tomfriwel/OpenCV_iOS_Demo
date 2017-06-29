@@ -9,66 +9,66 @@
 /* Begin PBXBuildFile section */
 		CF285DC11F0497F7003E33D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DC01F0497F7003E33D4 /* main.m */; };
 		CF285DC41F0497F7003E33D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DC31F0497F7003E33D4 /* AppDelegate.m */; };
-		CF285DC71F0497F7003E33D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DC61F0497F7003E33D4 /* ViewController.m */; };
 		CF285DCA1F0497F7003E33D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF285DC81F0497F7003E33D4 /* Main.storyboard */; };
 		CF285DCC1F0497F7003E33D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF285DCB1F0497F7003E33D4 /* Assets.xcassets */; };
 		CF285DCF1F0497F7003E33D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF285DCD1F0497F7003E33D4 /* LaunchScreen.storyboard */; };
-		CF285DDA1F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DD91F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m */; };
-		CF285DE51F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DE41F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m */; };
+		CF285E0B1F049AA6003E33D4 /* RecognizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DF41F049AA6003E33D4 /* RecognizeViewController.m */; };
+		CF285E0C1F049AA6003E33D4 /* Learn1_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DF61F049AA6003E33D4 /* Learn1_1ViewController.m */; };
+		CF285E0D1F049AA6003E33D4 /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DF81F049AA6003E33D4 /* ScaleViewController.m */; };
+		CF285E0E1F049AA6003E33D4 /* BorderDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DFA1F049AA6003E33D4 /* BorderDetectionViewController.m */; };
+		CF285E0F1F049AA6003E33D4 /* FindCountoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DFC1F049AA6003E33D4 /* FindCountoursViewController.m */; };
+		CF285E101F049AA6003E33D4 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DFE1F049AA6003E33D4 /* DrawViewController.m */; };
+		CF285E111F049AA6003E33D4 /* SobelOperatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285E001F049AA6003E33D4 /* SobelOperatorViewController.m */; };
+		CF285E121F049AA6003E33D4 /* HistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285E021F049AA6003E33D4 /* HistogramViewController.m */; };
+		CF285E151F049AA6003E33D4 /* FixRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285E081F049AA6003E33D4 /* FixRotationViewController.m */; };
+		CF285E161F049AA6003E33D4 /* ThreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285E0A1F049AA6003E33D4 /* ThreshViewController.m */; };
+		CF285EB41F049BDA003E33D4 /* UIImage+OpenCVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAB1F049BDA003E33D4 /* UIImage+OpenCVUtils.mm */; };
+		CF285EB51F049BDA003E33D4 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAD1F049BDA003E33D4 /* UIImage+OpenCV.mm */; };
+		CF285EB61F049BDA003E33D4 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */; };
+		CF285EB81F049BDA003E33D4 /* OpenCVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CF285DD61F0497F7003E33D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF285DB41F0497F7003E33D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF285DBB1F0497F7003E33D4;
-			remoteInfo = OpenCV_iOS_Demo;
-		};
-		CF285DE11F0497F7003E33D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF285DB41F0497F7003E33D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF285DBB1F0497F7003E33D4;
-			remoteInfo = OpenCV_iOS_Demo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CF285DBC1F0497F7003E33D4 /* OpenCV_iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF285DC01F0497F7003E33D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF285DC21F0497F7003E33D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF285DC31F0497F7003E33D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CF285DC51F0497F7003E33D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF285DC61F0497F7003E33D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CF285DC91F0497F7003E33D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF285DCB1F0497F7003E33D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF285DCE1F0497F7003E33D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF285DD01F0497F7003E33D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF285DD51F0497F7003E33D4 /* OpenCV_iOS_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_iOS_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF285DD91F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_iOS_DemoTests.m; sourceTree = "<group>"; };
-		CF285DDB1F0497F7003E33D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF285DE01F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_iOS_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF285DE41F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_iOS_DemoUITests.m; sourceTree = "<group>"; };
-		CF285DE61F0497F7003E33D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF285DF31F049AA6003E33D4 /* RecognizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeViewController.h; sourceTree = "<group>"; };
+		CF285DF41F049AA6003E33D4 /* RecognizeViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = RecognizeViewController.m; sourceTree = "<group>"; };
+		CF285DF51F049AA6003E33D4 /* Learn1_1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Learn1_1ViewController.h; sourceTree = "<group>"; };
+		CF285DF61F049AA6003E33D4 /* Learn1_1ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = Learn1_1ViewController.m; sourceTree = "<group>"; };
+		CF285DF71F049AA6003E33D4 /* ScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleViewController.h; sourceTree = "<group>"; };
+		CF285DF81F049AA6003E33D4 /* ScaleViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ScaleViewController.m; sourceTree = "<group>"; };
+		CF285DF91F049AA6003E33D4 /* BorderDetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderDetectionViewController.h; sourceTree = "<group>"; };
+		CF285DFA1F049AA6003E33D4 /* BorderDetectionViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = BorderDetectionViewController.m; sourceTree = "<group>"; };
+		CF285DFB1F049AA6003E33D4 /* FindCountoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCountoursViewController.h; sourceTree = "<group>"; };
+		CF285DFC1F049AA6003E33D4 /* FindCountoursViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = FindCountoursViewController.m; sourceTree = "<group>"; };
+		CF285DFD1F049AA6003E33D4 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		CF285DFE1F049AA6003E33D4 /* DrawViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = DrawViewController.m; sourceTree = "<group>"; };
+		CF285DFF1F049AA6003E33D4 /* SobelOperatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobelOperatorViewController.h; sourceTree = "<group>"; };
+		CF285E001F049AA6003E33D4 /* SobelOperatorViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = SobelOperatorViewController.m; sourceTree = "<group>"; };
+		CF285E011F049AA6003E33D4 /* HistogramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramViewController.h; sourceTree = "<group>"; };
+		CF285E021F049AA6003E33D4 /* HistogramViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = HistogramViewController.m; sourceTree = "<group>"; };
+		CF285E071F049AA6003E33D4 /* FixRotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixRotationViewController.h; sourceTree = "<group>"; };
+		CF285E081F049AA6003E33D4 /* FixRotationViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = FixRotationViewController.m; sourceTree = "<group>"; };
+		CF285E091F049AA6003E33D4 /* ThreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreshViewController.h; sourceTree = "<group>"; };
+		CF285E0A1F049AA6003E33D4 /* ThreshViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ThreshViewController.m; sourceTree = "<group>"; };
+		CF285EAA1F049BDA003E33D4 /* UIImage+OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCVUtils.h"; sourceTree = "<group>"; };
+		CF285EAB1F049BDA003E33D4 /* UIImage+OpenCVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCVUtils.mm"; sourceTree = "<group>"; };
+		CF285EAC1F049BDA003E33D4 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		CF285EAD1F049BDA003E33D4 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		CF285EAE1F049BDA003E33D4 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		CF285EB21F049BDA003E33D4 /* OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtils.h; sourceTree = "<group>"; };
+		CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVUtils.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CF285DB91F0497F7003E33D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF285DD21F0497F7003E33D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF285DDD1F0497F7003E33D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				CF285DBE1F0497F7003E33D4 /* OpenCV_iOS_Demo */,
-				CF285DD81F0497F7003E33D4 /* OpenCV_iOS_DemoTests */,
-				CF285DE31F0497F7003E33D4 /* OpenCV_iOS_DemoUITests */,
 				CF285DBD1F0497F7003E33D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				CF285DBC1F0497F7003E33D4 /* OpenCV_iOS_Demo.app */,
-				CF285DD51F0497F7003E33D4 /* OpenCV_iOS_DemoTests.xctest */,
-				CF285DE01F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +97,10 @@
 		CF285DBE1F0497F7003E33D4 /* OpenCV_iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CF285EA91F049BC8003E33D4 /* Utils */,
+				CF285DF21F049A9D003E33D4 /* Controllers */,
 				CF285DC21F0497F7003E33D4 /* AppDelegate.h */,
 				CF285DC31F0497F7003E33D4 /* AppDelegate.m */,
-				CF285DC51F0497F7003E33D4 /* ViewController.h */,
-				CF285DC61F0497F7003E33D4 /* ViewController.m */,
 				CF285DC81F0497F7003E33D4 /* Main.storyboard */,
 				CF285DCB1F0497F7003E33D4 /* Assets.xcassets */,
 				CF285DCD1F0497F7003E33D4 /* LaunchScreen.storyboard */,
@@ -122,22 +118,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CF285DD81F0497F7003E33D4 /* OpenCV_iOS_DemoTests */ = {
+		CF285DF21F049A9D003E33D4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CF285DD91F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m */,
-				CF285DDB1F0497F7003E33D4 /* Info.plist */,
+				CF285DF31F049AA6003E33D4 /* RecognizeViewController.h */,
+				CF285DF41F049AA6003E33D4 /* RecognizeViewController.m */,
+				CF285DF51F049AA6003E33D4 /* Learn1_1ViewController.h */,
+				CF285DF61F049AA6003E33D4 /* Learn1_1ViewController.m */,
+				CF285DF71F049AA6003E33D4 /* ScaleViewController.h */,
+				CF285DF81F049AA6003E33D4 /* ScaleViewController.m */,
+				CF285DF91F049AA6003E33D4 /* BorderDetectionViewController.h */,
+				CF285DFA1F049AA6003E33D4 /* BorderDetectionViewController.m */,
+				CF285DFB1F049AA6003E33D4 /* FindCountoursViewController.h */,
+				CF285DFC1F049AA6003E33D4 /* FindCountoursViewController.m */,
+				CF285DFD1F049AA6003E33D4 /* DrawViewController.h */,
+				CF285DFE1F049AA6003E33D4 /* DrawViewController.m */,
+				CF285DFF1F049AA6003E33D4 /* SobelOperatorViewController.h */,
+				CF285E001F049AA6003E33D4 /* SobelOperatorViewController.m */,
+				CF285E011F049AA6003E33D4 /* HistogramViewController.h */,
+				CF285E021F049AA6003E33D4 /* HistogramViewController.m */,
+				CF285E071F049AA6003E33D4 /* FixRotationViewController.h */,
+				CF285E081F049AA6003E33D4 /* FixRotationViewController.m */,
+				CF285E091F049AA6003E33D4 /* ThreshViewController.h */,
+				CF285E0A1F049AA6003E33D4 /* ThreshViewController.m */,
 			);
-			path = OpenCV_iOS_DemoTests;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
-		CF285DE31F0497F7003E33D4 /* OpenCV_iOS_DemoUITests */ = {
+		CF285EA91F049BC8003E33D4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				CF285DE41F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m */,
-				CF285DE61F0497F7003E33D4 /* Info.plist */,
+				CF285EAA1F049BDA003E33D4 /* UIImage+OpenCVUtils.h */,
+				CF285EAB1F049BDA003E33D4 /* UIImage+OpenCVUtils.mm */,
+				CF285EAC1F049BDA003E33D4 /* UIImage+OpenCV.h */,
+				CF285EAD1F049BDA003E33D4 /* UIImage+OpenCV.mm */,
+				CF285EAE1F049BDA003E33D4 /* UIImage+Utils.h */,
+				CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */,
+				CF285EB21F049BDA003E33D4 /* OpenCVUtils.h */,
+				CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */,
 			);
-			path = OpenCV_iOS_DemoUITests;
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,42 +180,6 @@
 			productReference = CF285DBC1F0497F7003E33D4 /* OpenCV_iOS_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF285DD41F0497F7003E33D4 /* OpenCV_iOS_DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF285DEC1F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_DemoTests" */;
-			buildPhases = (
-				CF285DD11F0497F7003E33D4 /* Sources */,
-				CF285DD21F0497F7003E33D4 /* Frameworks */,
-				CF285DD31F0497F7003E33D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF285DD71F0497F7003E33D4 /* PBXTargetDependency */,
-			);
-			name = OpenCV_iOS_DemoTests;
-			productName = OpenCV_iOS_DemoTests;
-			productReference = CF285DD51F0497F7003E33D4 /* OpenCV_iOS_DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CF285DDF1F0497F7003E33D4 /* OpenCV_iOS_DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF285DEF1F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_DemoUITests" */;
-			buildPhases = (
-				CF285DDC1F0497F7003E33D4 /* Sources */,
-				CF285DDD1F0497F7003E33D4 /* Frameworks */,
-				CF285DDE1F0497F7003E33D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF285DE21F0497F7003E33D4 /* PBXTargetDependency */,
-			);
-			name = OpenCV_iOS_DemoUITests;
-			productName = OpenCV_iOS_DemoUITests;
-			productReference = CF285DE01F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,18 +193,6 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = T5EW9858SB;
 						ProvisioningStyle = Automatic;
-					};
-					CF285DD41F0497F7003E33D4 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = T5EW9858SB;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CF285DBB1F0497F7003E33D4;
-					};
-					CF285DDF1F0497F7003E33D4 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = T5EW9858SB;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CF285DBB1F0497F7003E33D4;
 					};
 				};
 			};
@@ -238,8 +210,6 @@
 			projectRoot = "";
 			targets = (
 				CF285DBB1F0497F7003E33D4 /* OpenCV_iOS_Demo */,
-				CF285DD41F0497F7003E33D4 /* OpenCV_iOS_DemoTests */,
-				CF285DDF1F0497F7003E33D4 /* OpenCV_iOS_DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,20 +225,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF285DD31F0497F7003E33D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF285DDE1F0497F7003E33D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -276,42 +232,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF285DC71F0497F7003E33D4 /* ViewController.m in Sources */,
+				CF285E151F049AA6003E33D4 /* FixRotationViewController.m in Sources */,
 				CF285DC41F0497F7003E33D4 /* AppDelegate.m in Sources */,
+				CF285E0D1F049AA6003E33D4 /* ScaleViewController.m in Sources */,
+				CF285E0C1F049AA6003E33D4 /* Learn1_1ViewController.m in Sources */,
+				CF285EB51F049BDA003E33D4 /* UIImage+OpenCV.mm in Sources */,
+				CF285EB41F049BDA003E33D4 /* UIImage+OpenCVUtils.mm in Sources */,
+				CF285E121F049AA6003E33D4 /* HistogramViewController.m in Sources */,
+				CF285EB81F049BDA003E33D4 /* OpenCVUtils.mm in Sources */,
 				CF285DC11F0497F7003E33D4 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF285DD11F0497F7003E33D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF285DDA1F0497F7003E33D4 /* OpenCV_iOS_DemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF285DDC1F0497F7003E33D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF285DE51F0497F7003E33D4 /* OpenCV_iOS_DemoUITests.m in Sources */,
+				CF285E101F049AA6003E33D4 /* DrawViewController.m in Sources */,
+				CF285EB61F049BDA003E33D4 /* UIImage+Utils.m in Sources */,
+				CF285E0F1F049AA6003E33D4 /* FindCountoursViewController.m in Sources */,
+				CF285E161F049AA6003E33D4 /* ThreshViewController.m in Sources */,
+				CF285E0E1F049AA6003E33D4 /* BorderDetectionViewController.m in Sources */,
+				CF285E111F049AA6003E33D4 /* SobelOperatorViewController.m in Sources */,
+				CF285E0B1F049AA6003E33D4 /* RecognizeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CF285DD71F0497F7003E33D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF285DBB1F0497F7003E33D4 /* OpenCV_iOS_Demo */;
-			targetProxy = CF285DD61F0497F7003E33D4 /* PBXContainerItemProxy */;
-		};
-		CF285DE21F0497F7003E33D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF285DBB1F0497F7003E33D4 /* OpenCV_iOS_Demo */;
-			targetProxy = CF285DE11F0497F7003E33D4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CF285DC81F0497F7003E33D4 /* Main.storyboard */ = {
@@ -358,6 +298,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -406,6 +347,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -428,6 +370,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5EW9858SB;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCV_iOS_Demo/TestOpenCV",
+					"$(PROJECT_DIR)/OpenCV_iOS_Demo",
+				);
 				INFOPLIST_FILE = OpenCV_iOS_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-Demo";
@@ -440,60 +388,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5EW9858SB;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCV_iOS_Demo/TestOpenCV",
+					"$(PROJECT_DIR)/OpenCV_iOS_Demo",
+				);
 				INFOPLIST_FILE = OpenCV_iOS_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		CF285DED1F0497F7003E33D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = T5EW9858SB;
-				INFOPLIST_FILE = OpenCV_iOS_DemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_iOS_Demo.app/OpenCV_iOS_Demo";
-			};
-			name = Debug;
-		};
-		CF285DEE1F0497F7003E33D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = T5EW9858SB;
-				INFOPLIST_FILE = OpenCV_iOS_DemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_iOS_Demo.app/OpenCV_iOS_Demo";
-			};
-			name = Release;
-		};
-		CF285DF01F0497F7003E33D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = T5EW9858SB;
-				INFOPLIST_FILE = OpenCV_iOS_DemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = OpenCV_iOS_Demo;
-			};
-			name = Debug;
-		};
-		CF285DF11F0497F7003E33D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = T5EW9858SB;
-				INFOPLIST_FILE = OpenCV_iOS_DemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tomfriwel.com.OpenCV-iOS-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = OpenCV_iOS_Demo;
 			};
 			name = Release;
 		};
@@ -516,22 +420,7 @@
 				CF285DEB1F0497F7003E33D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		CF285DEC1F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF285DED1F0497F7003E33D4 /* Debug */,
-				CF285DEE1F0497F7003E33D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CF285DEF1F0497F7003E33D4 /* Build configuration list for PBXNativeTarget "OpenCV_iOS_DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF285DF01F0497F7003E33D4 /* Debug */,
-				CF285DF11F0497F7003E33D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
