@@ -33,7 +33,7 @@
 		CFCA133F215A36BD00550EA3 /* TDZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1308215A36BC00550EA3 /* TDZoomingScrollView.m */; };
 		CFCA1340215A36BD00550EA3 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1309215A36BC00550EA3 /* MWTapDetectingImageView.m */; };
 		CFCA1341215A36BD00550EA3 /* MWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA130A215A36BC00550EA3 /* MWTapDetectingView.m */; };
-		CFCA1342215A36BD00550EA3 /* EditorImagePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA130B215A36BC00550EA3 /* EditorImagePreviewController.m */; };
+		CFCA1342215A36BD00550EA3 /* ImagePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA130B215A36BC00550EA3 /* ImagePreviewController.m */; };
 		CFCA1343215A36BD00550EA3 /* UIView+Constriant.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA130D215A36BC00550EA3 /* UIView+Constriant.m */; };
 		CFCA1344215A36BD00550EA3 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1313215A36BC00550EA3 /* UIImage+OpenCV.mm */; };
 		CFCA1345215A36BD00550EA3 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1314215A36BC00550EA3 /* UIImage+Utils.m */; };
@@ -50,6 +50,7 @@
 		CFCA1350215A36BD00550EA3 /* HistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1329215A36BC00550EA3 /* HistogramViewController.m */; };
 		CFCA1351215A36BD00550EA3 /* RecognizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA132B215A36BC00550EA3 /* RecognizeViewController.m */; };
 		CFCA1352215A36BD00550EA3 /* ThreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA132C215A36BC00550EA3 /* ThreshViewController.m */; };
+		CFCA1354215A3A6D00550EA3 /* ImagePreview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCA1353215A3A6D00550EA3 /* ImagePreview.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,14 +80,14 @@
 		CFCA12FF215A36BC00550EA3 /* my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my.png; sourceTree = "<group>"; };
 		CFCA1300215A36BC00550EA3 /* m8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = m8.jpg; sourceTree = "<group>"; };
 		CFCA1301215A36BC00550EA3 /* text.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = text.JPG; sourceTree = "<group>"; };
-		CFCA1303215A36BC00550EA3 /* EditorImagePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorImagePreviewController.h; sourceTree = "<group>"; };
+		CFCA1303215A36BC00550EA3 /* ImagePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreviewController.h; sourceTree = "<group>"; };
 		CFCA1305215A36BC00550EA3 /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingImageView.h; sourceTree = "<group>"; };
 		CFCA1306215A36BC00550EA3 /* TDZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDZoomingScrollView.h; sourceTree = "<group>"; };
 		CFCA1307215A36BC00550EA3 /* MWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingView.h; sourceTree = "<group>"; };
 		CFCA1308215A36BC00550EA3 /* TDZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDZoomingScrollView.m; sourceTree = "<group>"; };
 		CFCA1309215A36BC00550EA3 /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingImageView.m; sourceTree = "<group>"; };
 		CFCA130A215A36BC00550EA3 /* MWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingView.m; sourceTree = "<group>"; };
-		CFCA130B215A36BC00550EA3 /* EditorImagePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorImagePreviewController.m; sourceTree = "<group>"; };
+		CFCA130B215A36BC00550EA3 /* ImagePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreviewController.m; sourceTree = "<group>"; };
 		CFCA130D215A36BC00550EA3 /* UIView+Constriant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constriant.m"; sourceTree = "<group>"; };
 		CFCA130E215A36BC00550EA3 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
 		CFCA130F215A36BC00550EA3 /* OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtils.h; sourceTree = "<group>"; };
@@ -119,6 +120,7 @@
 		CFCA132B215A36BC00550EA3 /* RecognizeViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = RecognizeViewController.m; sourceTree = "<group>"; };
 		CFCA132C215A36BC00550EA3 /* ThreshViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ThreshViewController.m; sourceTree = "<group>"; };
 		CFCA132D215A36BC00550EA3 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		CFCA1353215A3A6D00550EA3 /* ImagePreview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImagePreview.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,9 +213,10 @@
 			isa = PBXGroup;
 			children = (
 				CFCA130C215A36BC00550EA3 /* cv */,
-				CFCA1303215A36BC00550EA3 /* EditorImagePreviewController.h */,
-				CFCA130B215A36BC00550EA3 /* EditorImagePreviewController.m */,
+				CFCA1303215A36BC00550EA3 /* ImagePreviewController.h */,
+				CFCA130B215A36BC00550EA3 /* ImagePreviewController.m */,
 				CFCA1304215A36BC00550EA3 /* ImageViewer */,
+				CFCA1353215A3A6D00550EA3 /* ImagePreview.storyboard */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				CF285DCF1F0497F7003E33D4 /* LaunchScreen.storyboard in Resources */,
 				CFCA1338215A36BD00550EA3 /* passport.jpg in Resources */,
 				CF285DCC1F0497F7003E33D4 /* Assets.xcassets in Resources */,
+				CFCA1354215A3A6D00550EA3 /* ImagePreview.storyboard in Resources */,
 				CFCA1331215A36BD00550EA3 /* girl.jpg in Resources */,
 				CFCA133E215A36BD00550EA3 /* text.JPG in Resources */,
 				CF285DCA1F0497F7003E33D4 /* Main.storyboard in Resources */,
@@ -380,7 +384,7 @@
 				CFCA134F215A36BD00550EA3 /* EdgeViewController.m in Sources */,
 				CFCA1352215A36BD00550EA3 /* ThreshViewController.m in Sources */,
 				CF285DC11F0497F7003E33D4 /* main.m in Sources */,
-				CFCA1342215A36BD00550EA3 /* EditorImagePreviewController.m in Sources */,
+				CFCA1342215A36BD00550EA3 /* ImagePreviewController.m in Sources */,
 				CFCA1350215A36BD00550EA3 /* HistogramViewController.m in Sources */,
 				CFCA1345215A36BD00550EA3 /* UIImage+Utils.m in Sources */,
 				CFCA1340215A36BD00550EA3 /* MWTapDetectingImageView.m in Sources */,

@@ -6,27 +6,37 @@
 //  Copyright © 2017 jue.so. All rights reserved.
 //
 
-#import "EditorImagePreviewController.h"
+#import "ImagePreviewController.h"
 
 #import "TDZoomingScrollView.h"
 #import "UIView+Constriant.h"
 
-@interface EditorImagePreviewController ()
+@interface ImagePreviewController ()
 
 @property (nonatomic, strong) TDZoomingScrollView *scrollView;
 @property (nonatomic, assign) BOOL toggle;
 
 @end
 
-@implementation EditorImagePreviewController
+@implementation ImagePreviewController
 
 - (IBAction)backAction:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+- (IBAction)shareAction:(id)sender {
+    NSString *textToShare = @"Enter your text to be shared";
+    UIImage * image = self.image;
+    
+    NSArray *objectsToShare = @[textToShare, image];
+    
+    UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:objectsToShare applicationActivities:nil];
+    
+    [self presentViewController:activityVC animated:YES completion:nil];
+}
 
 +(instancetype)defaultViewController {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Editor" bundle:nil];
-    EditorImagePreviewController *vc = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([self class])];
+    ImagePreviewController *vc = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([self class])];
     return vc;
 }
 
@@ -68,6 +78,7 @@
 -(void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
+//    [self prefersStatusBarHidden]
 }
 
 -(void)handleScrollViewTap:(id)sender {

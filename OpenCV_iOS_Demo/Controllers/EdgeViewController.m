@@ -9,6 +9,7 @@
 #import "UIImage+OpenCVUtils.h"
 #import "EdgeViewController.h"
 #import "UIImage+Utils.h"
+#import "ImagePreviewController.h"
 
 @interface EdgeViewController ()
 
@@ -28,10 +29,25 @@
     self.image = [UIImage imageNamed:@"girl.jpg"];
     self.image = [self.image fixOrientation];
     [self setup];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showPreview:)];
+    tap.numberOfTapsRequired = 1;
+    self.showView.userInteractionEnabled = YES;
+    [self.showView addGestureRecognizer:tap];
 }
 
 - (void)setup{
     self.showView.image = [self.image cannyImage:self.thr0 threshold1:self.thr1];
+}
+
+-(void)showPreview:(UITapGestureRecognizer *)sender {
+    NSLog(@"123123");
+    UIStoryboard *stb = [UIStoryboard storyboardWithName:@"ImagePreview" bundle:nil];
+    ImagePreviewController *vc = [stb instantiateViewControllerWithIdentifier:@"ImagePreviewController"];
+    
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    vc.image = self.showView.image;
+    //    UIViewController *vc = [[UIViewController alloc] init];
+    [self.navigationController presentViewController:nvc animated:YES completion:nil];
 }
 
 - (IBAction)slider0Action:(UISlider *)sender {
@@ -62,6 +78,7 @@
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     
     UIImage *image = info[UIImagePickerControllerOriginalImage];
+//    UIImage *image = info[UIImagePickerControllerEditedImage];
     
     [picker dismissViewControllerAnimated:YES completion:nil];
     

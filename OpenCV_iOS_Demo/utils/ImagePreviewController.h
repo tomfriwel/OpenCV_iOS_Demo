@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EditorImagePreviewController : UIViewController
+@interface ImagePreviewController : UIViewController
 
 +(instancetype)defaultViewController;
 
