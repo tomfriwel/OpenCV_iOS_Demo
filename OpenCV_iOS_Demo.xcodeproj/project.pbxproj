@@ -12,39 +12,44 @@
 		CF285DCA1F0497F7003E33D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF285DC81F0497F7003E33D4 /* Main.storyboard */; };
 		CF285DCC1F0497F7003E33D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF285DCB1F0497F7003E33D4 /* Assets.xcassets */; };
 		CF285DCF1F0497F7003E33D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF285DCD1F0497F7003E33D4 /* LaunchScreen.storyboard */; };
-		CF285E0B1F049AA6003E33D4 /* RecognizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DF41F049AA6003E33D4 /* RecognizeViewController.m */; };
-		CF285E0C1F049AA6003E33D4 /* Learn1_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DF61F049AA6003E33D4 /* Learn1_1ViewController.m */; };
-		CF285E0D1F049AA6003E33D4 /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DF81F049AA6003E33D4 /* ScaleViewController.m */; };
-		CF285E0E1F049AA6003E33D4 /* BorderDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DFA1F049AA6003E33D4 /* BorderDetectionViewController.m */; };
-		CF285E0F1F049AA6003E33D4 /* FindCountoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DFC1F049AA6003E33D4 /* FindCountoursViewController.m */; };
-		CF285E101F049AA6003E33D4 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285DFE1F049AA6003E33D4 /* DrawViewController.m */; };
-		CF285E111F049AA6003E33D4 /* SobelOperatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285E001F049AA6003E33D4 /* SobelOperatorViewController.m */; };
-		CF285E121F049AA6003E33D4 /* HistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285E021F049AA6003E33D4 /* HistogramViewController.m */; };
-		CF285E151F049AA6003E33D4 /* FixRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285E081F049AA6003E33D4 /* FixRotationViewController.m */; };
-		CF285E161F049AA6003E33D4 /* ThreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285E0A1F049AA6003E33D4 /* ThreshViewController.m */; };
-		CF285EB41F049BDA003E33D4 /* UIImage+OpenCVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAB1F049BDA003E33D4 /* UIImage+OpenCVUtils.mm */; };
-		CF285EB51F049BDA003E33D4 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAD1F049BDA003E33D4 /* UIImage+OpenCV.mm */; };
-		CF285EB61F049BDA003E33D4 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */; };
-		CF285EB81F049BDA003E33D4 /* OpenCVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */; };
-		CF285ED11F04A06F003E33D4 /* verticalImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC01F04A06F003E33D4 /* verticalImg.png */; };
-		CF285ED21F04A06F003E33D4 /* m8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC11F04A06F003E33D4 /* m8.jpg */; };
-		CF285ED31F04A06F003E33D4 /* rotate0.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC21F04A06F003E33D4 /* rotate0.png */; };
-		CF285ED41F04A06F003E33D4 /* rotate.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC31F04A06F003E33D4 /* rotate.JPG */; };
-		CF285ED51F04A06F003E33D4 /* passport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC41F04A06F003E33D4 /* passport.jpg */; };
-		CF285ED61F04A06F003E33D4 /* my.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC51F04A06F003E33D4 /* my.png */; };
-		CF285ED71F04A06F003E33D4 /* text.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC61F04A06F003E33D4 /* text.JPG */; };
-		CF285ED81F04A06F003E33D4 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC71F04A06F003E33D4 /* girl.jpg */; };
-		CF285ED91F04A06F003E33D4 /* hist1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC81F04A06F003E33D4 /* hist1.png */; };
-		CF285EDA1F04A06F003E33D4 /* hist.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC91F04A06F003E33D4 /* hist.png */; };
-		CF285EDB1F04A06F003E33D4 /* elo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CF285ECA1F04A06F003E33D4 /* elo.JPG */; };
-		CF285EDC1F04A06F003E33D4 /* profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF285ECB1F04A06F003E33D4 /* profile.jpeg */; };
-		CF285EDD1F04A06F003E33D4 /* U9FML.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF285ECC1F04A06F003E33D4 /* U9FML.jpg */; };
-		CF285EDE1F04A06F003E33D4 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285ECD1F04A06F003E33D4 /* test.png */; };
-		CF285EDF1F04A06F003E33D4 /* test1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF285ECE1F04A06F003E33D4 /* test1.jpeg */; };
-		CF285EE01F04A06F003E33D4 /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285ECF1F04A06F003E33D4 /* test3.png */; };
-		CF285EE11F04A06F003E33D4 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285ED01F04A06F003E33D4 /* test2.png */; };
 		CFCA12E6215A1C7900550EA3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA12E5215A1C7900550EA3 /* opencv2.framework */; };
-		CFCA12E9215A28A100550EA3 /* EdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA12E8215A28A100550EA3 /* EdgeViewController.m */; };
+		CFCA132E215A36BD00550EA3 /* hist.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12F1215A36BC00550EA3 /* hist.png */; };
+		CFCA132F215A36BD00550EA3 /* U9FML.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12F2215A36BC00550EA3 /* U9FML.jpg */; };
+		CFCA1330215A36BD00550EA3 /* rotate.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12F3215A36BC00550EA3 /* rotate.JPG */; };
+		CFCA1331215A36BD00550EA3 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12F4215A36BC00550EA3 /* girl.jpg */; };
+		CFCA1332215A36BD00550EA3 /* elo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12F5215A36BC00550EA3 /* elo.JPG */; };
+		CFCA1333215A36BD00550EA3 /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12F6215A36BC00550EA3 /* test3.png */; };
+		CFCA1334215A36BD00550EA3 /* hist1.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12F7215A36BC00550EA3 /* hist1.png */; };
+		CFCA1335215A36BD00550EA3 /* rotate0.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12F8215A36BC00550EA3 /* rotate0.png */; };
+		CFCA1336215A36BD00550EA3 /* test1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12F9215A36BC00550EA3 /* test1.jpeg */; };
+		CFCA1337215A36BD00550EA3 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12FA215A36BC00550EA3 /* test2.png */; };
+		CFCA1338215A36BD00550EA3 /* passport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12FB215A36BC00550EA3 /* passport.jpg */; };
+		CFCA1339215A36BD00550EA3 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12FC215A36BC00550EA3 /* test.png */; };
+		CFCA133A215A36BD00550EA3 /* profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12FD215A36BC00550EA3 /* profile.jpeg */; };
+		CFCA133B215A36BD00550EA3 /* verticalImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12FE215A36BC00550EA3 /* verticalImg.png */; };
+		CFCA133C215A36BD00550EA3 /* my.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCA12FF215A36BC00550EA3 /* my.png */; };
+		CFCA133D215A36BD00550EA3 /* m8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFCA1300215A36BC00550EA3 /* m8.jpg */; };
+		CFCA133E215A36BD00550EA3 /* text.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CFCA1301215A36BC00550EA3 /* text.JPG */; };
+		CFCA133F215A36BD00550EA3 /* TDZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1308215A36BC00550EA3 /* TDZoomingScrollView.m */; };
+		CFCA1340215A36BD00550EA3 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1309215A36BC00550EA3 /* MWTapDetectingImageView.m */; };
+		CFCA1341215A36BD00550EA3 /* MWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA130A215A36BC00550EA3 /* MWTapDetectingView.m */; };
+		CFCA1342215A36BD00550EA3 /* EditorImagePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA130B215A36BC00550EA3 /* EditorImagePreviewController.m */; };
+		CFCA1343215A36BD00550EA3 /* UIView+Constriant.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA130D215A36BC00550EA3 /* UIView+Constriant.m */; };
+		CFCA1344215A36BD00550EA3 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1313215A36BC00550EA3 /* UIImage+OpenCV.mm */; };
+		CFCA1345215A36BD00550EA3 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1314215A36BC00550EA3 /* UIImage+Utils.m */; };
+		CFCA1346215A36BD00550EA3 /* UIImage+OpenCVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1315215A36BC00550EA3 /* UIImage+OpenCVUtils.mm */; };
+		CFCA1347215A36BD00550EA3 /* OpenCVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1316215A36BC00550EA3 /* OpenCVUtils.mm */; };
+		CFCA1348215A36BD00550EA3 /* FindCountoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1318215A36BC00550EA3 /* FindCountoursViewController.m */; };
+		CFCA1349215A36BD00550EA3 /* SobelOperatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA131D215A36BC00550EA3 /* SobelOperatorViewController.m */; };
+		CFCA134A215A36BD00550EA3 /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1320215A36BC00550EA3 /* ScaleViewController.m */; };
+		CFCA134B215A36BD00550EA3 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1322215A36BC00550EA3 /* DrawViewController.m */; };
+		CFCA134C215A36BD00550EA3 /* Learn1_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1324215A36BC00550EA3 /* Learn1_1ViewController.m */; };
+		CFCA134D215A36BD00550EA3 /* BorderDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1325215A36BC00550EA3 /* BorderDetectionViewController.m */; };
+		CFCA134E215A36BD00550EA3 /* FixRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1326215A36BC00550EA3 /* FixRotationViewController.m */; };
+		CFCA134F215A36BD00550EA3 /* EdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1328215A36BC00550EA3 /* EdgeViewController.m */; };
+		CFCA1350215A36BD00550EA3 /* HistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA1329215A36BC00550EA3 /* HistogramViewController.m */; };
+		CFCA1351215A36BD00550EA3 /* RecognizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA132B215A36BC00550EA3 /* RecognizeViewController.m */; };
+		CFCA1352215A36BD00550EA3 /* ThreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA132C215A36BC00550EA3 /* ThreshViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,54 +61,64 @@
 		CF285DCB1F0497F7003E33D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF285DCE1F0497F7003E33D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF285DD01F0497F7003E33D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF285DF31F049AA6003E33D4 /* RecognizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeViewController.h; sourceTree = "<group>"; };
-		CF285DF41F049AA6003E33D4 /* RecognizeViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = RecognizeViewController.m; sourceTree = "<group>"; };
-		CF285DF51F049AA6003E33D4 /* Learn1_1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Learn1_1ViewController.h; sourceTree = "<group>"; };
-		CF285DF61F049AA6003E33D4 /* Learn1_1ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = Learn1_1ViewController.m; sourceTree = "<group>"; };
-		CF285DF71F049AA6003E33D4 /* ScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleViewController.h; sourceTree = "<group>"; };
-		CF285DF81F049AA6003E33D4 /* ScaleViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ScaleViewController.m; sourceTree = "<group>"; };
-		CF285DF91F049AA6003E33D4 /* BorderDetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderDetectionViewController.h; sourceTree = "<group>"; };
-		CF285DFA1F049AA6003E33D4 /* BorderDetectionViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = BorderDetectionViewController.m; sourceTree = "<group>"; };
-		CF285DFB1F049AA6003E33D4 /* FindCountoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCountoursViewController.h; sourceTree = "<group>"; };
-		CF285DFC1F049AA6003E33D4 /* FindCountoursViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = FindCountoursViewController.m; sourceTree = "<group>"; };
-		CF285DFD1F049AA6003E33D4 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
-		CF285DFE1F049AA6003E33D4 /* DrawViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = DrawViewController.m; sourceTree = "<group>"; };
-		CF285DFF1F049AA6003E33D4 /* SobelOperatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobelOperatorViewController.h; sourceTree = "<group>"; };
-		CF285E001F049AA6003E33D4 /* SobelOperatorViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = SobelOperatorViewController.m; sourceTree = "<group>"; };
-		CF285E011F049AA6003E33D4 /* HistogramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramViewController.h; sourceTree = "<group>"; };
-		CF285E021F049AA6003E33D4 /* HistogramViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = HistogramViewController.m; sourceTree = "<group>"; };
-		CF285E071F049AA6003E33D4 /* FixRotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixRotationViewController.h; sourceTree = "<group>"; };
-		CF285E081F049AA6003E33D4 /* FixRotationViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = FixRotationViewController.m; sourceTree = "<group>"; };
-		CF285E091F049AA6003E33D4 /* ThreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreshViewController.h; sourceTree = "<group>"; };
-		CF285E0A1F049AA6003E33D4 /* ThreshViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ThreshViewController.m; sourceTree = "<group>"; };
-		CF285EAA1F049BDA003E33D4 /* UIImage+OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCVUtils.h"; sourceTree = "<group>"; };
-		CF285EAB1F049BDA003E33D4 /* UIImage+OpenCVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCVUtils.mm"; sourceTree = "<group>"; };
-		CF285EAC1F049BDA003E33D4 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
-		CF285EAD1F049BDA003E33D4 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
-		CF285EAE1F049BDA003E33D4 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
-		CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
-		CF285EB21F049BDA003E33D4 /* OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtils.h; sourceTree = "<group>"; };
-		CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVUtils.mm; sourceTree = "<group>"; };
-		CF285EC01F04A06F003E33D4 /* verticalImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verticalImg.png; sourceTree = "<group>"; };
-		CF285EC11F04A06F003E33D4 /* m8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = m8.jpg; sourceTree = "<group>"; };
-		CF285EC21F04A06F003E33D4 /* rotate0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate0.png; sourceTree = "<group>"; };
-		CF285EC31F04A06F003E33D4 /* rotate.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rotate.JPG; sourceTree = "<group>"; };
-		CF285EC41F04A06F003E33D4 /* passport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = passport.jpg; sourceTree = "<group>"; };
-		CF285EC51F04A06F003E33D4 /* my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my.png; sourceTree = "<group>"; };
-		CF285EC61F04A06F003E33D4 /* text.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = text.JPG; sourceTree = "<group>"; };
-		CF285EC71F04A06F003E33D4 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
-		CF285EC81F04A06F003E33D4 /* hist1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hist1.png; sourceTree = "<group>"; };
-		CF285EC91F04A06F003E33D4 /* hist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hist.png; sourceTree = "<group>"; };
-		CF285ECA1F04A06F003E33D4 /* elo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elo.JPG; sourceTree = "<group>"; };
-		CF285ECB1F04A06F003E33D4 /* profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpeg; sourceTree = "<group>"; };
-		CF285ECC1F04A06F003E33D4 /* U9FML.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = U9FML.jpg; sourceTree = "<group>"; };
-		CF285ECD1F04A06F003E33D4 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
-		CF285ECE1F04A06F003E33D4 /* test1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpeg; sourceTree = "<group>"; };
-		CF285ECF1F04A06F003E33D4 /* test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test3.png; sourceTree = "<group>"; };
-		CF285ED01F04A06F003E33D4 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
 		CFCA12E5215A1C7900550EA3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
-		CFCA12E7215A28A100550EA3 /* EdgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdgeViewController.h; sourceTree = "<group>"; };
-		CFCA12E8215A28A100550EA3 /* EdgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdgeViewController.m; sourceTree = "<group>"; };
+		CFCA12F1215A36BC00550EA3 /* hist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hist.png; sourceTree = "<group>"; };
+		CFCA12F2215A36BC00550EA3 /* U9FML.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = U9FML.jpg; sourceTree = "<group>"; };
+		CFCA12F3215A36BC00550EA3 /* rotate.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rotate.JPG; sourceTree = "<group>"; };
+		CFCA12F4215A36BC00550EA3 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
+		CFCA12F5215A36BC00550EA3 /* elo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elo.JPG; sourceTree = "<group>"; };
+		CFCA12F6215A36BC00550EA3 /* test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test3.png; sourceTree = "<group>"; };
+		CFCA12F7215A36BC00550EA3 /* hist1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hist1.png; sourceTree = "<group>"; };
+		CFCA12F8215A36BC00550EA3 /* rotate0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate0.png; sourceTree = "<group>"; };
+		CFCA12F9215A36BC00550EA3 /* test1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpeg; sourceTree = "<group>"; };
+		CFCA12FA215A36BC00550EA3 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
+		CFCA12FB215A36BC00550EA3 /* passport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = passport.jpg; sourceTree = "<group>"; };
+		CFCA12FC215A36BC00550EA3 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		CFCA12FD215A36BC00550EA3 /* profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpeg; sourceTree = "<group>"; };
+		CFCA12FE215A36BC00550EA3 /* verticalImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verticalImg.png; sourceTree = "<group>"; };
+		CFCA12FF215A36BC00550EA3 /* my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my.png; sourceTree = "<group>"; };
+		CFCA1300215A36BC00550EA3 /* m8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = m8.jpg; sourceTree = "<group>"; };
+		CFCA1301215A36BC00550EA3 /* text.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = text.JPG; sourceTree = "<group>"; };
+		CFCA1303215A36BC00550EA3 /* EditorImagePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorImagePreviewController.h; sourceTree = "<group>"; };
+		CFCA1305215A36BC00550EA3 /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingImageView.h; sourceTree = "<group>"; };
+		CFCA1306215A36BC00550EA3 /* TDZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDZoomingScrollView.h; sourceTree = "<group>"; };
+		CFCA1307215A36BC00550EA3 /* MWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingView.h; sourceTree = "<group>"; };
+		CFCA1308215A36BC00550EA3 /* TDZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDZoomingScrollView.m; sourceTree = "<group>"; };
+		CFCA1309215A36BC00550EA3 /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingImageView.m; sourceTree = "<group>"; };
+		CFCA130A215A36BC00550EA3 /* MWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingView.m; sourceTree = "<group>"; };
+		CFCA130B215A36BC00550EA3 /* EditorImagePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorImagePreviewController.m; sourceTree = "<group>"; };
+		CFCA130D215A36BC00550EA3 /* UIView+Constriant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constriant.m"; sourceTree = "<group>"; };
+		CFCA130E215A36BC00550EA3 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		CFCA130F215A36BC00550EA3 /* OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtils.h; sourceTree = "<group>"; };
+		CFCA1310215A36BC00550EA3 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		CFCA1311215A36BC00550EA3 /* UIView+Constriant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constriant.h"; sourceTree = "<group>"; };
+		CFCA1312215A36BC00550EA3 /* UIImage+OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCVUtils.h"; sourceTree = "<group>"; };
+		CFCA1313215A36BC00550EA3 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		CFCA1314215A36BC00550EA3 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		CFCA1315215A36BC00550EA3 /* UIImage+OpenCVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCVUtils.mm"; sourceTree = "<group>"; };
+		CFCA1316215A36BC00550EA3 /* OpenCVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVUtils.mm; sourceTree = "<group>"; };
+		CFCA1318215A36BC00550EA3 /* FindCountoursViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = FindCountoursViewController.m; sourceTree = "<group>"; };
+		CFCA1319215A36BC00550EA3 /* BorderDetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderDetectionViewController.h; sourceTree = "<group>"; };
+		CFCA131A215A36BC00550EA3 /* Learn1_1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Learn1_1ViewController.h; sourceTree = "<group>"; };
+		CFCA131B215A36BC00550EA3 /* ThreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreshViewController.h; sourceTree = "<group>"; };
+		CFCA131C215A36BC00550EA3 /* RecognizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeViewController.h; sourceTree = "<group>"; };
+		CFCA131D215A36BC00550EA3 /* SobelOperatorViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = SobelOperatorViewController.m; sourceTree = "<group>"; };
+		CFCA131E215A36BC00550EA3 /* HistogramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramViewController.h; sourceTree = "<group>"; };
+		CFCA131F215A36BC00550EA3 /* EdgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeViewController.h; sourceTree = "<group>"; };
+		CFCA1320215A36BC00550EA3 /* ScaleViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ScaleViewController.m; sourceTree = "<group>"; };
+		CFCA1321215A36BC00550EA3 /* FixRotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixRotationViewController.h; sourceTree = "<group>"; };
+		CFCA1322215A36BC00550EA3 /* DrawViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = DrawViewController.m; sourceTree = "<group>"; };
+		CFCA1323215A36BC00550EA3 /* FindCountoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCountoursViewController.h; sourceTree = "<group>"; };
+		CFCA1324215A36BC00550EA3 /* Learn1_1ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = Learn1_1ViewController.m; sourceTree = "<group>"; };
+		CFCA1325215A36BC00550EA3 /* BorderDetectionViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = BorderDetectionViewController.m; sourceTree = "<group>"; };
+		CFCA1326215A36BC00550EA3 /* FixRotationViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = FixRotationViewController.m; sourceTree = "<group>"; };
+		CFCA1327215A36BC00550EA3 /* ScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleViewController.h; sourceTree = "<group>"; };
+		CFCA1328215A36BC00550EA3 /* EdgeViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = EdgeViewController.m; sourceTree = "<group>"; };
+		CFCA1329215A36BC00550EA3 /* HistogramViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = HistogramViewController.m; sourceTree = "<group>"; };
+		CFCA132A215A36BC00550EA3 /* SobelOperatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobelOperatorViewController.h; sourceTree = "<group>"; };
+		CFCA132B215A36BC00550EA3 /* RecognizeViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = RecognizeViewController.m; sourceTree = "<group>"; };
+		CFCA132C215A36BC00550EA3 /* ThreshViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ThreshViewController.m; sourceTree = "<group>"; };
+		CFCA132D215A36BC00550EA3 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,10 +153,10 @@
 		CF285DBE1F0497F7003E33D4 /* OpenCV_iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CFCA12F0215A36BC00550EA3 /* assets */,
+				CFCA1317215A36BC00550EA3 /* Controllers */,
+				CFCA1302215A36BC00550EA3 /* utils */,
 				CFCA12E5215A1C7900550EA3 /* opencv2.framework */,
-				CF285EBF1F04A03E003E33D4 /* images */,
-				CF285EA91F049BC8003E33D4 /* Utils */,
-				CF285DF21F049A9D003E33D4 /* Controllers */,
 				CF285DC21F0497F7003E33D4 /* AppDelegate.h */,
 				CF285DC31F0497F7003E33D4 /* AppDelegate.m */,
 				CF285DC81F0497F7003E33D4 /* Main.storyboard */,
@@ -161,79 +176,105 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CF285DF21F049A9D003E33D4 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				CF285DF31F049AA6003E33D4 /* RecognizeViewController.h */,
-				CF285DF41F049AA6003E33D4 /* RecognizeViewController.m */,
-				CF285DF51F049AA6003E33D4 /* Learn1_1ViewController.h */,
-				CF285DF61F049AA6003E33D4 /* Learn1_1ViewController.m */,
-				CF285DF71F049AA6003E33D4 /* ScaleViewController.h */,
-				CF285DF81F049AA6003E33D4 /* ScaleViewController.m */,
-				CF285DF91F049AA6003E33D4 /* BorderDetectionViewController.h */,
-				CF285DFA1F049AA6003E33D4 /* BorderDetectionViewController.m */,
-				CF285DFB1F049AA6003E33D4 /* FindCountoursViewController.h */,
-				CF285DFC1F049AA6003E33D4 /* FindCountoursViewController.m */,
-				CF285DFD1F049AA6003E33D4 /* DrawViewController.h */,
-				CF285DFE1F049AA6003E33D4 /* DrawViewController.m */,
-				CF285DFF1F049AA6003E33D4 /* SobelOperatorViewController.h */,
-				CF285E001F049AA6003E33D4 /* SobelOperatorViewController.m */,
-				CF285E011F049AA6003E33D4 /* HistogramViewController.h */,
-				CF285E021F049AA6003E33D4 /* HistogramViewController.m */,
-				CF285E071F049AA6003E33D4 /* FixRotationViewController.h */,
-				CF285E081F049AA6003E33D4 /* FixRotationViewController.m */,
-				CF285E091F049AA6003E33D4 /* ThreshViewController.h */,
-				CF285E0A1F049AA6003E33D4 /* ThreshViewController.m */,
-				CFCA12E7215A28A100550EA3 /* EdgeViewController.h */,
-				CFCA12E8215A28A100550EA3 /* EdgeViewController.m */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		CF285EA91F049BC8003E33D4 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				CF285EAA1F049BDA003E33D4 /* UIImage+OpenCVUtils.h */,
-				CF285EAB1F049BDA003E33D4 /* UIImage+OpenCVUtils.mm */,
-				CF285EAC1F049BDA003E33D4 /* UIImage+OpenCV.h */,
-				CF285EAD1F049BDA003E33D4 /* UIImage+OpenCV.mm */,
-				CF285EAE1F049BDA003E33D4 /* UIImage+Utils.h */,
-				CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */,
-				CF285EB21F049BDA003E33D4 /* OpenCVUtils.h */,
-				CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
-		CF285EBF1F04A03E003E33D4 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				CF285EC01F04A06F003E33D4 /* verticalImg.png */,
-				CF285EC11F04A06F003E33D4 /* m8.jpg */,
-				CF285EC21F04A06F003E33D4 /* rotate0.png */,
-				CF285EC31F04A06F003E33D4 /* rotate.JPG */,
-				CF285EC41F04A06F003E33D4 /* passport.jpg */,
-				CF285EC51F04A06F003E33D4 /* my.png */,
-				CF285EC61F04A06F003E33D4 /* text.JPG */,
-				CF285EC71F04A06F003E33D4 /* girl.jpg */,
-				CF285EC81F04A06F003E33D4 /* hist1.png */,
-				CF285EC91F04A06F003E33D4 /* hist.png */,
-				CF285ECA1F04A06F003E33D4 /* elo.JPG */,
-				CF285ECB1F04A06F003E33D4 /* profile.jpeg */,
-				CF285ECC1F04A06F003E33D4 /* U9FML.jpg */,
-				CF285ECD1F04A06F003E33D4 /* test.png */,
-				CF285ECE1F04A06F003E33D4 /* test1.jpeg */,
-				CF285ECF1F04A06F003E33D4 /* test3.png */,
-				CF285ED01F04A06F003E33D4 /* test2.png */,
-			);
-			name = images;
-			sourceTree = "<group>";
-		};
 		CF3BBD482150A167002362CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCA12F0215A36BC00550EA3 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA12F5215A36BC00550EA3 /* elo.JPG */,
+				CFCA12F4215A36BC00550EA3 /* girl.jpg */,
+				CFCA12F1215A36BC00550EA3 /* hist.png */,
+				CFCA12F7215A36BC00550EA3 /* hist1.png */,
+				CFCA1300215A36BC00550EA3 /* m8.jpg */,
+				CFCA12FF215A36BC00550EA3 /* my.png */,
+				CFCA12FB215A36BC00550EA3 /* passport.jpg */,
+				CFCA12FD215A36BC00550EA3 /* profile.jpeg */,
+				CFCA12F3215A36BC00550EA3 /* rotate.JPG */,
+				CFCA12F8215A36BC00550EA3 /* rotate0.png */,
+				CFCA12FC215A36BC00550EA3 /* test.png */,
+				CFCA12F9215A36BC00550EA3 /* test1.jpeg */,
+				CFCA12FA215A36BC00550EA3 /* test2.png */,
+				CFCA12F6215A36BC00550EA3 /* test3.png */,
+				CFCA1301215A36BC00550EA3 /* text.JPG */,
+				CFCA12F2215A36BC00550EA3 /* U9FML.jpg */,
+				CFCA12FE215A36BC00550EA3 /* verticalImg.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		CFCA1302215A36BC00550EA3 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA130C215A36BC00550EA3 /* cv */,
+				CFCA1303215A36BC00550EA3 /* EditorImagePreviewController.h */,
+				CFCA130B215A36BC00550EA3 /* EditorImagePreviewController.m */,
+				CFCA1304215A36BC00550EA3 /* ImageViewer */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		CFCA1304215A36BC00550EA3 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA1305215A36BC00550EA3 /* MWTapDetectingImageView.h */,
+				CFCA1306215A36BC00550EA3 /* TDZoomingScrollView.h */,
+				CFCA1307215A36BC00550EA3 /* MWTapDetectingView.h */,
+				CFCA1308215A36BC00550EA3 /* TDZoomingScrollView.m */,
+				CFCA1309215A36BC00550EA3 /* MWTapDetectingImageView.m */,
+				CFCA130A215A36BC00550EA3 /* MWTapDetectingView.m */,
+			);
+			path = ImageViewer;
+			sourceTree = "<group>";
+		};
+		CFCA130C215A36BC00550EA3 /* cv */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA130F215A36BC00550EA3 /* OpenCVUtils.h */,
+				CFCA1316215A36BC00550EA3 /* OpenCVUtils.mm */,
+				CFCA1310215A36BC00550EA3 /* UIImage+OpenCV.h */,
+				CFCA1313215A36BC00550EA3 /* UIImage+OpenCV.mm */,
+				CFCA1312215A36BC00550EA3 /* UIImage+OpenCVUtils.h */,
+				CFCA1315215A36BC00550EA3 /* UIImage+OpenCVUtils.mm */,
+				CFCA130E215A36BC00550EA3 /* UIImage+Utils.h */,
+				CFCA1314215A36BC00550EA3 /* UIImage+Utils.m */,
+				CFCA1311215A36BC00550EA3 /* UIView+Constriant.h */,
+				CFCA130D215A36BC00550EA3 /* UIView+Constriant.m */,
+			);
+			path = cv;
+			sourceTree = "<group>";
+		};
+		CFCA1317215A36BC00550EA3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA1319215A36BC00550EA3 /* BorderDetectionViewController.h */,
+				CFCA1325215A36BC00550EA3 /* BorderDetectionViewController.m */,
+				CFCA132D215A36BC00550EA3 /* DrawViewController.h */,
+				CFCA1322215A36BC00550EA3 /* DrawViewController.m */,
+				CFCA131F215A36BC00550EA3 /* EdgeViewController.h */,
+				CFCA1328215A36BC00550EA3 /* EdgeViewController.m */,
+				CFCA1323215A36BC00550EA3 /* FindCountoursViewController.h */,
+				CFCA1318215A36BC00550EA3 /* FindCountoursViewController.m */,
+				CFCA1321215A36BC00550EA3 /* FixRotationViewController.h */,
+				CFCA1326215A36BC00550EA3 /* FixRotationViewController.m */,
+				CFCA131E215A36BC00550EA3 /* HistogramViewController.h */,
+				CFCA1329215A36BC00550EA3 /* HistogramViewController.m */,
+				CFCA131A215A36BC00550EA3 /* Learn1_1ViewController.h */,
+				CFCA1324215A36BC00550EA3 /* Learn1_1ViewController.m */,
+				CFCA131C215A36BC00550EA3 /* RecognizeViewController.h */,
+				CFCA132B215A36BC00550EA3 /* RecognizeViewController.m */,
+				CFCA1327215A36BC00550EA3 /* ScaleViewController.h */,
+				CFCA1320215A36BC00550EA3 /* ScaleViewController.m */,
+				CFCA132A215A36BC00550EA3 /* SobelOperatorViewController.h */,
+				CFCA131D215A36BC00550EA3 /* SobelOperatorViewController.m */,
+				CFCA131B215A36BC00550EA3 /* ThreshViewController.h */,
+				CFCA132C215A36BC00550EA3 /* ThreshViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,26 +336,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF285ED21F04A06F003E33D4 /* m8.jpg in Resources */,
-				CF285ED91F04A06F003E33D4 /* hist1.png in Resources */,
-				CF285EDB1F04A06F003E33D4 /* elo.JPG in Resources */,
-				CF285EE01F04A06F003E33D4 /* test3.png in Resources */,
-				CF285ED61F04A06F003E33D4 /* my.png in Resources */,
+				CFCA1330215A36BD00550EA3 /* rotate.JPG in Resources */,
+				CFCA133C215A36BD00550EA3 /* my.png in Resources */,
+				CFCA133A215A36BD00550EA3 /* profile.jpeg in Resources */,
+				CFCA1334215A36BD00550EA3 /* hist1.png in Resources */,
 				CF285DCF1F0497F7003E33D4 /* LaunchScreen.storyboard in Resources */,
-				CF285EE11F04A06F003E33D4 /* test2.png in Resources */,
-				CF285EDF1F04A06F003E33D4 /* test1.jpeg in Resources */,
-				CF285EDD1F04A06F003E33D4 /* U9FML.jpg in Resources */,
-				CF285ED11F04A06F003E33D4 /* verticalImg.png in Resources */,
+				CFCA1338215A36BD00550EA3 /* passport.jpg in Resources */,
 				CF285DCC1F0497F7003E33D4 /* Assets.xcassets in Resources */,
+				CFCA1331215A36BD00550EA3 /* girl.jpg in Resources */,
+				CFCA133E215A36BD00550EA3 /* text.JPG in Resources */,
 				CF285DCA1F0497F7003E33D4 /* Main.storyboard in Resources */,
-				CF285ED81F04A06F003E33D4 /* girl.jpg in Resources */,
-				CF285ED31F04A06F003E33D4 /* rotate0.png in Resources */,
-				CF285ED41F04A06F003E33D4 /* rotate.JPG in Resources */,
-				CF285ED71F04A06F003E33D4 /* text.JPG in Resources */,
-				CF285EDC1F04A06F003E33D4 /* profile.jpeg in Resources */,
-				CF285EDE1F04A06F003E33D4 /* test.png in Resources */,
-				CF285EDA1F04A06F003E33D4 /* hist.png in Resources */,
-				CF285ED51F04A06F003E33D4 /* passport.jpg in Resources */,
+				CFCA132E215A36BD00550EA3 /* hist.png in Resources */,
+				CFCA1335215A36BD00550EA3 /* rotate0.png in Resources */,
+				CFCA1332215A36BD00550EA3 /* elo.JPG in Resources */,
+				CFCA132F215A36BD00550EA3 /* U9FML.jpg in Resources */,
+				CFCA133D215A36BD00550EA3 /* m8.jpg in Resources */,
+				CFCA1339215A36BD00550EA3 /* test.png in Resources */,
+				CFCA1333215A36BD00550EA3 /* test3.png in Resources */,
+				CFCA1337215A36BD00550EA3 /* test2.png in Resources */,
+				CFCA1336215A36BD00550EA3 /* test1.jpeg in Resources */,
+				CFCA133B215A36BD00550EA3 /* verticalImg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,23 +366,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF285E151F049AA6003E33D4 /* FixRotationViewController.m in Sources */,
+				CFCA134E215A36BD00550EA3 /* FixRotationViewController.m in Sources */,
+				CFCA1344215A36BD00550EA3 /* UIImage+OpenCV.mm in Sources */,
+				CFCA1349215A36BD00550EA3 /* SobelOperatorViewController.m in Sources */,
 				CF285DC41F0497F7003E33D4 /* AppDelegate.m in Sources */,
-				CFCA12E9215A28A100550EA3 /* EdgeViewController.m in Sources */,
-				CF285E0D1F049AA6003E33D4 /* ScaleViewController.m in Sources */,
-				CF285E0C1F049AA6003E33D4 /* Learn1_1ViewController.m in Sources */,
-				CF285EB51F049BDA003E33D4 /* UIImage+OpenCV.mm in Sources */,
-				CF285EB41F049BDA003E33D4 /* UIImage+OpenCVUtils.mm in Sources */,
-				CF285E121F049AA6003E33D4 /* HistogramViewController.m in Sources */,
-				CF285EB81F049BDA003E33D4 /* OpenCVUtils.mm in Sources */,
+				CFCA1348215A36BD00550EA3 /* FindCountoursViewController.m in Sources */,
+				CFCA1351215A36BD00550EA3 /* RecognizeViewController.m in Sources */,
+				CFCA1341215A36BD00550EA3 /* MWTapDetectingView.m in Sources */,
+				CFCA134C215A36BD00550EA3 /* Learn1_1ViewController.m in Sources */,
+				CFCA1343215A36BD00550EA3 /* UIView+Constriant.m in Sources */,
+				CFCA134B215A36BD00550EA3 /* DrawViewController.m in Sources */,
+				CFCA1346215A36BD00550EA3 /* UIImage+OpenCVUtils.mm in Sources */,
+				CFCA134F215A36BD00550EA3 /* EdgeViewController.m in Sources */,
+				CFCA1352215A36BD00550EA3 /* ThreshViewController.m in Sources */,
 				CF285DC11F0497F7003E33D4 /* main.m in Sources */,
-				CF285E101F049AA6003E33D4 /* DrawViewController.m in Sources */,
-				CF285EB61F049BDA003E33D4 /* UIImage+Utils.m in Sources */,
-				CF285E0F1F049AA6003E33D4 /* FindCountoursViewController.m in Sources */,
-				CF285E161F049AA6003E33D4 /* ThreshViewController.m in Sources */,
-				CF285E0E1F049AA6003E33D4 /* BorderDetectionViewController.m in Sources */,
-				CF285E111F049AA6003E33D4 /* SobelOperatorViewController.m in Sources */,
-				CF285E0B1F049AA6003E33D4 /* RecognizeViewController.m in Sources */,
+				CFCA1342215A36BD00550EA3 /* EditorImagePreviewController.m in Sources */,
+				CFCA1350215A36BD00550EA3 /* HistogramViewController.m in Sources */,
+				CFCA1345215A36BD00550EA3 /* UIImage+Utils.m in Sources */,
+				CFCA1340215A36BD00550EA3 /* MWTapDetectingImageView.m in Sources */,
+				CFCA133F215A36BD00550EA3 /* TDZoomingScrollView.m in Sources */,
+				CFCA134D215A36BD00550EA3 /* BorderDetectionViewController.m in Sources */,
+				CFCA1347215A36BD00550EA3 /* OpenCVUtils.mm in Sources */,
+				CFCA134A215A36BD00550EA3 /* ScaleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

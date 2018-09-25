@@ -6,8 +6,8 @@
 //  Copyright © 2018 tomfriwel. All rights reserved.
 //
 
-#import "EdgeViewController.h"
 #import "UIImage+OpenCVUtils.h"
+#import "EdgeViewController.h"
 #import "UIImage+Utils.h"
 
 @interface EdgeViewController ()
