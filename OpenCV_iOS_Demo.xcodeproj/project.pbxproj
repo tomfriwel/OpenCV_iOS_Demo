@@ -26,7 +26,6 @@
 		CF285EB51F049BDA003E33D4 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAD1F049BDA003E33D4 /* UIImage+OpenCV.mm */; };
 		CF285EB61F049BDA003E33D4 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */; };
 		CF285EB81F049BDA003E33D4 /* OpenCVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */; };
-		CF285EBE1F049F31003E33D4 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF285EBD1F049F31003E33D4 /* opencv2.framework */; };
 		CF285ED11F04A06F003E33D4 /* verticalImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC01F04A06F003E33D4 /* verticalImg.png */; };
 		CF285ED21F04A06F003E33D4 /* m8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC11F04A06F003E33D4 /* m8.jpg */; };
 		CF285ED31F04A06F003E33D4 /* rotate0.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285EC21F04A06F003E33D4 /* rotate0.png */; };
@@ -44,6 +43,8 @@
 		CF285EDF1F04A06F003E33D4 /* test1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF285ECE1F04A06F003E33D4 /* test1.jpeg */; };
 		CF285EE01F04A06F003E33D4 /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285ECF1F04A06F003E33D4 /* test3.png */; };
 		CF285EE11F04A06F003E33D4 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF285ED01F04A06F003E33D4 /* test2.png */; };
+		CFCA12E6215A1C7900550EA3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA12E5215A1C7900550EA3 /* opencv2.framework */; };
+		CFCA12E9215A28A100550EA3 /* EdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA12E8215A28A100550EA3 /* EdgeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,7 +84,6 @@
 		CF285EAF1F049BDA003E33D4 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
 		CF285EB21F049BDA003E33D4 /* OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtils.h; sourceTree = "<group>"; };
 		CF285EB31F049BDA003E33D4 /* OpenCVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVUtils.mm; sourceTree = "<group>"; };
-		CF285EBD1F049F31003E33D4 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		CF285EC01F04A06F003E33D4 /* verticalImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verticalImg.png; sourceTree = "<group>"; };
 		CF285EC11F04A06F003E33D4 /* m8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = m8.jpg; sourceTree = "<group>"; };
 		CF285EC21F04A06F003E33D4 /* rotate0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate0.png; sourceTree = "<group>"; };
@@ -101,6 +101,9 @@
 		CF285ECE1F04A06F003E33D4 /* test1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpeg; sourceTree = "<group>"; };
 		CF285ECF1F04A06F003E33D4 /* test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test3.png; sourceTree = "<group>"; };
 		CF285ED01F04A06F003E33D4 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
+		CFCA12E5215A1C7900550EA3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		CFCA12E7215A28A100550EA3 /* EdgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdgeViewController.h; sourceTree = "<group>"; };
+		CFCA12E8215A28A100550EA3 /* EdgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdgeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF285EBE1F049F31003E33D4 /* opencv2.framework in Frameworks */,
+				CFCA12E6215A1C7900550EA3 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +123,7 @@
 			children = (
 				CF285DBE1F0497F7003E33D4 /* OpenCV_iOS_Demo */,
 				CF285DBD1F0497F7003E33D4 /* Products */,
+				CF3BBD482150A167002362CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,8 +138,8 @@
 		CF285DBE1F0497F7003E33D4 /* OpenCV_iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CFCA12E5215A1C7900550EA3 /* opencv2.framework */,
 				CF285EBF1F04A03E003E33D4 /* images */,
-				CF285EBD1F049F31003E33D4 /* opencv2.framework */,
 				CF285EA91F049BC8003E33D4 /* Utils */,
 				CF285DF21F049A9D003E33D4 /* Controllers */,
 				CF285DC21F0497F7003E33D4 /* AppDelegate.h */,
@@ -180,6 +184,8 @@
 				CF285E081F049AA6003E33D4 /* FixRotationViewController.m */,
 				CF285E091F049AA6003E33D4 /* ThreshViewController.h */,
 				CF285E0A1F049AA6003E33D4 /* ThreshViewController.m */,
+				CFCA12E7215A28A100550EA3 /* EdgeViewController.h */,
+				CFCA12E8215A28A100550EA3 /* EdgeViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -223,6 +229,13 @@
 			name = images;
 			sourceTree = "<group>";
 		};
+		CF3BBD482150A167002362CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,7 +262,7 @@
 		CF285DB41F0497F7003E33D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = tomfriwel;
 				TargetAttributes = {
 					CF285DBB1F0497F7003E33D4 = {
@@ -314,6 +327,7 @@
 			files = (
 				CF285E151F049AA6003E33D4 /* FixRotationViewController.m in Sources */,
 				CF285DC41F0497F7003E33D4 /* AppDelegate.m in Sources */,
+				CFCA12E9215A28A100550EA3 /* EdgeViewController.m in Sources */,
 				CF285E0D1F049AA6003E33D4 /* ScaleViewController.m in Sources */,
 				CF285E0C1F049AA6003E33D4 /* Learn1_1ViewController.m in Sources */,
 				CF285EB51F049BDA003E33D4 /* UIImage+OpenCV.mm in Sources */,
@@ -363,15 +377,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -412,15 +434,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -453,7 +483,6 @@
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/OpenCV_iOS_Demo/TestOpenCV",
 					"$(PROJECT_DIR)/OpenCV_iOS_Demo",
 				);
 				INFOPLIST_FILE = OpenCV_iOS_Demo/Info.plist;
@@ -471,7 +500,6 @@
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/OpenCV_iOS_Demo/TestOpenCV",
 					"$(PROJECT_DIR)/OpenCV_iOS_Demo",
 				);
 				INFOPLIST_FILE = OpenCV_iOS_Demo/Info.plist;

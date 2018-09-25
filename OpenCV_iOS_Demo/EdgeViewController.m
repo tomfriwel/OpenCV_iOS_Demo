@@ -7,8 +7,15 @@
 //
 
 #import "EdgeViewController.h"
+#import "UIImage+OpenCVUtils.h"
+#import "UIImage+Utils.h"
 
 @interface EdgeViewController ()
+
+@property (weak, nonatomic) IBOutlet UIImageView *showView;
+@property (strong, nonatomic) UIImage *image;
+@property (assign, nonatomic) CGFloat thr0;
+@property (assign, nonatomic) CGFloat thr1;
 
 @end
 
@@ -16,17 +23,51 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.thr0 = 50;
+    self.thr1 = 200;
+    self.image = [UIImage imageNamed:@"girl.jpg"];
+    self.image = [self.image fixOrientation];
+    [self setup];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setup{
+    self.showView.image = [self.image cannyImage:self.thr0 threshold1:self.thr1];
 }
-*/
+
+- (IBAction)slider0Action:(UISlider *)sender {
+    NSLog(@"%f", sender.value);
+    self.thr0 = sender.value;
+    if (self.image) {
+        [self setup];
+    }
+}
+
+- (IBAction)slider1Action:(UISlider *)sender {
+    NSLog(@"%f", sender.value);
+    self.thr1 = sender.value;
+    if (self.image) {
+        [self setup];
+    }
+}
+
+- (IBAction)selectAction:(id)sender {
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    picker.delegate = (id)self;
+    picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    [self presentViewController:picker animated:YES completion:nil];
+}
+
+#pragma mark - UIImagePickerControllerDelegate
+
+-(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
+    
+    UIImage *image = info[UIImagePickerControllerOriginalImage];
+    
+    [picker dismissViewControllerAnimated:YES completion:nil];
+    
+    self.image = image;
+    self.image = [self.image fixOrientation];
+    [self setup];
+}
 
 @end

@@ -28,4 +28,6 @@
 
 -(double)darkColorPercent;
 
+-(UIImage *)cannyImage:(CGFloat)thr0 threshold1:(CGFloat)thr1;
+
 @end
