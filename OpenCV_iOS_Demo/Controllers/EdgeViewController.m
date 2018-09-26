@@ -17,6 +17,7 @@
 @property (strong, nonatomic) UIImage *image;
 @property (assign, nonatomic) CGFloat thr0;
 @property (assign, nonatomic) CGFloat thr1;
+@property (assign, nonatomic) int apertureSize;
 
 @end
 
@@ -26,6 +27,7 @@
     [super viewDidLoad];
     self.thr0 = 50;
     self.thr1 = 200;
+    self.apertureSize = 3;
     self.image = [UIImage imageNamed:@"girl.jpg"];
     self.image = [self.image fixOrientation];
     [self setup];
@@ -36,7 +38,7 @@
 }
 
 - (void)setup{
-    self.showView.image = [self.image cannyImage:self.thr0 threshold1:self.thr1];
+    self.showView.image = [self.image cannyImage:self.thr0 threshold1:self.thr1 apertureSize:self.apertureSize];
 }
 
 -(void)showPreview:(UITapGestureRecognizer *)sender {
@@ -64,6 +66,12 @@
     if (self.image) {
         [self setup];
     }
+}
+- (IBAction)apertureChange:(UISegmentedControl *)sender {
+    NSLog(@"%ld", sender.selectedSegmentIndex);
+    NSArray *arr = @[@3, @5, @7];
+    self.apertureSize = [arr[sender.selectedSegmentIndex] intValue];
+    [self setup];
 }
 
 - (IBAction)selectAction:(id)sender {

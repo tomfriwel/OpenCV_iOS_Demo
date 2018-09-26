@@ -234,12 +234,12 @@ cv::Mat fixRotationb(cv::Mat img) {
     return (imgSize - nonzero) / double(imgSize);
 }
 
--(UIImage *)cannyImage:(CGFloat)thr0 threshold1:(CGFloat)thr1 {
+-(UIImage *)cannyImage:(CGFloat)thr0 threshold1:(CGFloat)thr1 apertureSize:(int)apertureSize {
     cv::Mat img = [self CVMat];
     cv::Mat gray;
     cv::cvtColor(img, gray, CV_BGR2GRAY);
 //    cv::GaussianBlur(gray, gray, cv::Size(9 ,9 ),2 ,2);
-    cv::Canny(gray, gray, thr0, thr1);
+    cv::Canny(gray, gray, thr0, thr1, apertureSize);
     return [UIImage imageWithCVMat:gray];
 }
 

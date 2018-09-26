@@ -720,28 +720,48 @@
                                 </constraints>
                             </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="111" minValue="1" maxValue="255" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hq-RG-4dB">
-                                <rect key="frame" x="18" y="617" width="339" height="31"/>
+                                <rect key="frame" x="35.5" y="617" width="304" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="0UQ-gx-CSp"/>
+                                </constraints>
                                 <connections>
                                     <action selector="slider1Action:" destination="1DW-hI-cb8" eventType="valueChanged" id="qg0-Ni-peO"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="111" minValue="1" maxValue="255" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAj-jE-Y1S">
-                                <rect key="frame" x="18" y="579" width="339" height="31"/>
+                                <rect key="frame" x="35.5" y="579" width="304" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="9fJ-hb-6VL"/>
+                                </constraints>
                                 <connections>
                                     <action selector="slider0Action:" destination="1DW-hI-cb8" eventType="valueChanged" id="kSN-mQ-lf7"/>
                                 </connections>
                             </slider>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="kzd-c4-2dS">
+                                <rect key="frame" x="37.5" y="543" width="300" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="qRg-bM-gci"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="3"/>
+                                    <segment title="5"/>
+                                    <segment title="7"/>
+                                </segments>
+                                <connections>
+                                    <action selector="apertureChange:" destination="1DW-hI-cb8" eventType="valueChanged" id="yux-0e-VNi"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4hq-RG-4dB" firstAttribute="leading" secondItem="iL7-3x-3EH" secondAttribute="leading" constant="20" id="1Ok-CA-Cof"/>
                             <constraint firstItem="4hq-RG-4dB" firstAttribute="top" secondItem="bAj-jE-Y1S" secondAttribute="bottom" constant="8" id="3Fb-xt-dJd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="bAj-jE-Y1S" secondAttribute="trailing" constant="4" id="4s3-Br-8VQ"/>
-                            <constraint firstAttribute="trailing" secondItem="4hq-RG-4dB" secondAttribute="trailing" constant="20" id="BWq-gt-VRe"/>
+                            <constraint firstItem="4hq-RG-4dB" firstAttribute="centerX" secondItem="iL7-3x-3EH" secondAttribute="centerX" id="9wG-zn-lJP"/>
                             <constraint firstItem="LES-AO-93d" firstAttribute="leading" secondItem="iL7-3x-3EH" secondAttribute="leading" id="BmW-bR-mE8"/>
                             <constraint firstItem="xXa-YX-ee4" firstAttribute="top" secondItem="4hq-RG-4dB" secondAttribute="bottom" constant="20" id="EqB-D4-4I6"/>
                             <constraint firstItem="LES-AO-93d" firstAttribute="top" secondItem="N4C-Li-3P3" secondAttribute="bottom" id="KYq-NN-kEc"/>
-                            <constraint firstItem="bAj-jE-Y1S" firstAttribute="leading" secondItem="iL7-3x-3EH" secondAttribute="leadingMargin" constant="4" id="cWp-RF-CIa"/>
+                            <constraint firstItem="bAj-jE-Y1S" firstAttribute="centerX" secondItem="iL7-3x-3EH" secondAttribute="centerX" id="cLp-Kx-Orc"/>
+                            <constraint firstItem="kzd-c4-2dS" firstAttribute="centerX" secondItem="iL7-3x-3EH" secondAttribute="centerX" id="hOD-lC-j8j"/>
+                            <constraint firstItem="bAj-jE-Y1S" firstAttribute="top" secondItem="kzd-c4-2dS" secondAttribute="bottom" constant="8" id="wYz-m5-no4"/>
                             <constraint firstAttribute="trailing" secondItem="LES-AO-93d" secondAttribute="trailing" id="zNn-eP-4v4"/>
                         </constraints>
                     </view>
@@ -758,7 +778,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrw-Un-iQL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-420" y="2053"/>
+            <point key="canvasLocation" x="-420" y="2052.3238380809598"/>
         </scene>
     </scenes>
 </document>
